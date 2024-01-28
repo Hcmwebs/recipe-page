@@ -2,7 +2,7 @@ import { Hero, Ingredients, Instructions, Nutrition, Prep } from './components';
 const App = () => {
 	return (
 		<>
-			<div className='grid grid-cols-1 bg-white lg:rounded-3xl'>
+			<div className='grid grid-cols-1 bg-white lg:rounded-3xl w-full max-w-[736px] mx-auto'>
 				<header className='lg:p-10'>
 					<figure>
 						<img
@@ -12,8 +12,8 @@ const App = () => {
 						/>
 					</figure>
 				</header>
-				<main className='grid grid-cols-1 gap-y-8 align-center px-8 lg:p-10 mt-10 lg:mt-0'>
-					<section className='min-h-30vh grid grid-col-1 gap-y-6'>
+				<main className='w-full grid grid-cols-1 gap-y-8 align-center px-8 lg:p-10 mt-10 lg:mt-0'>
+					<section className='grid grid-col-1 gap-y-6'>
 						<h1 className='font-normal text-4xl text-left text-black leading-9'>
 							Simply Omelette recipe
 						</h1>
@@ -22,6 +22,15 @@ const App = () => {
 							omelette combines beaten eggs cooked to perfection, optionally
 							filled with your choice of cheese, vegetables, or meats.
 						</p>
+					</section>
+					<section>
+						<h2 className='text-2xl text-secondary'>Preparation:</h2>
+						<ul>
+							<li>Lorem ipsum dolor sit amet.</li>
+							<li>Lorem ipsum dolor sit amet.</li>
+							<li>Lorem ipsum dolor sit amet.</li>
+							<li>Lorem ipsum dolor sit amet.</li>
+						</ul>
 					</section>
 				</main>
 			</div>
