@@ -2,7 +2,7 @@ import { Hero, Ingredients, Instructions, Nutrition, Prep } from './components';
 const App = () => {
 	return (
 		<>
-			<div className='grid grid-cols-1 gap-y-8 lg:gap-y-10 bg-white lg:rounded-3xl'>
+			<div className='grid grid-cols-1 bg-white lg:rounded-3xl'>
 				<header className='lg:p-10'>
 					<figure>
 						<img
@@ -12,7 +12,7 @@ const App = () => {
 						/>
 					</figure>
 				</header>
-				<main className='grid grid-cols-1 gap-y-8 align-center px-8 lg:p-10 -mt-4 lg:-mt-10'>
+				<main className='grid grid-cols-1 gap-y-8 align-center px-8 lg:p-10 mt-10 lg:mt-0'>
 					<Hero />
 					<Prep />
 					<Ingredients />
