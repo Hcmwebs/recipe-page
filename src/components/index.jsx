@@ -1,4 +1,5 @@
 import Card from './Card';
+import Divider from './Divider';
 import Hero from './Hero';
 import Ingredients from './Ingredients';
 import Instructions from './Instructions';
@@ -11,6 +12,7 @@ import TableRow from './TableRow';
 import Title from './Title';
 
 export {
+	Divider,
 	PageIntro,
 	Card,
 	Table,
