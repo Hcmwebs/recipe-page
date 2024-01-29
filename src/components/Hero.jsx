@@ -1,7 +1,17 @@
-import React from 'react';
+import HeroImage from '../assets/image-omelette.jpeg';
 
 const Hero = () => {
-	return <h1 className='text-3xl text-center'>Hero goes here</h1>;
+	return (
+		<header className='lg:p-10'>
+			<figure>
+				<img
+					src={HeroImage}
+					alt='Omelette on a plate'
+					className='w-full lg:rounded-3xl'
+				/>
+			</figure>
+		</header>
+	);
 };
 
 export default Hero;
