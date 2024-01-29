@@ -1,7 +1,17 @@
-import React from 'react';
+import { preparation } from '../data';
+import { ListItem } from './index';
 
 const Prep = () => {
-	return <h1 className='text-3xl text-center'>Preparation goes here</h1>;
+	return (
+		<section className='bg-neutral p-10 grid grid-cols-1 gap-y-4 rounded-xl '>
+			<h2 className='text-xl text-secondary font-semibold'>Preparation time</h2>
+			<ul className='list-outside list-disc'>
+				{preparation.map((listItem) => {
+					return <ListItem key={listItem.id} {...listItem} />;
+				})}
+			</ul>
+		</section>
+	);
 };
 
 export default Prep;
