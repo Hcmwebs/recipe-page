@@ -77,4 +77,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Acknowledgments
 
-- [Frontend Mentor](https://www.frontendmentor.io/) - Thank you very much creating such a great platform.
+- [Frontend Mentor](https://www.frontendmentor.io/) - Thank you very much for creating such a great platform.
