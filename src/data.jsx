@@ -47,4 +47,11 @@ const instructions = [
 	},
 ];
 
-export { preparation, ingredients, instructions };
+const tableData = [
+	{ id: 1, tdNormal: 'calories', tdBold: '277kcal' },
+	{ id: 2, tdNormal: 'carbs', tdBold: '0g' },
+	{ id: 3, tdNormal: 'proteins', tdBold: '20g' },
+	{ id: 4, tdNormal: 'fat', tdBold: '22g' },
+];
+
+export { preparation, ingredients, instructions, tableData };
