@@ -58,6 +58,7 @@ const App = () => {
 							})}
 						</ul>
 					</section>
+					<Nutrition />
 				</main>
 			</div>
 		</>
